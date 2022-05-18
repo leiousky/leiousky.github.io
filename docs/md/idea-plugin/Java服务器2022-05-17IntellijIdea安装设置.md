@@ -63,10 +63,7 @@ git config --global core.autocrlf input
 
 ## 7. rider安装
 
-
-# 第2节：Intellij IDEA 相关设置
-
-## 1. 参数配置：Help->edit custom
+## 8. 参数配置：Help->edit custom
 
 - 自定义idea参数，edit custom properties
 
@@ -89,7 +86,7 @@ idea.max.intellisense.filesize=50000
 -Duser.name=jaysunxiao
 ```
 
-## 2. 界面设置和编码设置（需要上面两步做完）
+## 9. 界面设置和编码设置（需要上面两步做完）
 
 - 文件编码设置：File->Settings->Editor->File Encodings
 
@@ -100,7 +97,7 @@ Default encoding for properties files:UTF-8
 BOM for utf8: No Bom
 ```
 
-## 3. 换行符设置
+## 10. 换行符设置
 
 - 统一用Unix换行符：File->Settings->Editor->Code Style
 
@@ -108,7 +105,7 @@ BOM for utf8: No Bom
 Line separator，Unix and MacOs （\n）
 ```
 
-## 4. 代码模板设置
+## 11. 代码模板设置
 
 - 设置类模板：Editor->File and Code Templates->Includes
 
@@ -133,7 +130,7 @@ on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either expres
 See the License for the specific language governing permissions and limitations under the License.
 ```
 
-## 5. 代理设置
+## 12. 代理设置
 
 - idea代理设置
   ![Image text](../../assets/img/idea-proxy.jpg)
@@ -142,7 +139,7 @@ See the License for the specific language governing permissions and limitations 
   ![Image text](../../assets/img/idea-proxy-maven.jpg)
 
 
-## 6. 使用Idea默认的快捷键设置
+## 13. 使用Idea默认的快捷键设置
 
 - eclipse快捷键设置，个人习惯
 
@@ -154,7 +151,7 @@ replace，设置为alt+f
 在输入法上右键，将win10的简体繁体切换ctrl+f快捷键键取消
 ```
 
-## 7. 服务器插件安装
+## 14. 服务器插件安装
 
 - Cyan Light Theme主题插件，个人习惯
 - zoolytic，zookeeper客户端管理插件，推荐下载
@@ -168,13 +165,13 @@ replace，设置为alt+f
 - EasyApi
 
 
-## 8. web插件安装
+## 15. web插件安装
 
 - eslint
   ![Image text](../../assets/img/idea-plugin-eslint-setup.png)
 
 
-## 9. 格式设置，个人习惯
+## 16. 格式设置，个人习惯
 
 - CSS格式设置
 - SCSS格式设置
@@ -189,7 +186,7 @@ replace，设置为alt+f
   ![Image text](../../assets/img/idea-setting-html-0.png)
   ![Image text](../../assets/img/idea-setting-html-1.png)
 
-## 10. Lingoes安装
+## 17. Lingoes安装
 
 - 在电脑管家上下载也可以，直接默认安装
   ![Image text](../../assets/img/lingoes-00.png)
@@ -202,10 +199,7 @@ C:\Users\Administrator\AppData\Local\Lingoes\Translator\user_data\speech
 重启Lingoes，在设置->语言中，选择声音，英语
 ```
 
-
-# 第2节：Intellij IDEA 代理设置
-
-## 1.解决Plugins和Dependencies拉取不到jar包，项目报红
+## 18.解决Plugins和Dependencies拉取不到jar包，项目报红
 
 找到安装目录E:\Tools\IntelliJ IDEA 2021.1.3\plugins\maven\lib\maven3\conf\settings.xml
 ```
